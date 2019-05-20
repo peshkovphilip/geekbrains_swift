@@ -97,4 +97,4 @@ while p < n - 1 {
     }
     p += 1
 }
-print(arreratok)
+print(arreratok) //end
