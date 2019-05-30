@@ -39,6 +39,7 @@ extension Auto {
     
     func faster() -> Int {
         if self.curSpeed + self.accSpeed <= self.maxSpeed {
+            print("Вы добавили газу!")
             return (self.curSpeed + self.accSpeed)
         } else {
             if self.model == .ZIL {
@@ -46,7 +47,6 @@ extension Auto {
             } else {
                 print("Вы можете быстрее, но для этого втопите нитро!")
             }
-            
             return self.curSpeed
         }
     }
@@ -135,11 +135,22 @@ extension TrunkCar: CustomStringConvertible {
 }
 
 //5. Создать несколько объектов каждого класса. Применить к ним различные действия.
-var Auto1 = SportCar(model: .Ford_Mustang, maxSpeed: 350, accSpeed: 10)
-var Auto2 = SportCar(model: .Mazda_3, maxSpeed: 190, accSpeed: 5)
-var Auto3 = TrunkCar(model: .Optimus_Prime, maxSpeed: 220, accSpeed: 3, levelCO2: 100)
-var Auto4 = TrunkCar(model: .ZIL, maxSpeed: 70, accSpeed: 1, levelCO2: 280)
-
+var Auto1 = SportCar(model: .Ford_Mustang, maxSpeed: 350, accSpeed: 100)
+var Auto2 = SportCar(model: .Mazda_3, maxSpeed: 190, accSpeed: 30)
+var Auto3 = TrunkCar(model: .Optimus_Prime, maxSpeed: 220, accSpeed: 10, levelCO2: 100)
+var Auto4 = TrunkCar(model: .ZIL, maxSpeed: 10, accSpeed: 3, levelCO2: 280)
+Auto1.curSpeed = Auto1.faster()
+Auto1.curSpeed = Auto1.faster()
+Auto1.curSpeed = Auto1.faster()
+Auto1.curSpeed = Auto1.faster()
+Auto2.curSpeed = Auto2.slower()
+Auto2.curSpeed = Auto2.faster()
+Auto2.curSpeed = Auto2.faster()
+Auto2.curSpeed = Auto2.slower()
+Auto4.curSpeed = Auto4.faster()
+Auto4.curSpeed = Auto4.faster()
+Auto4.curSpeed = Auto4.faster()
+Auto4.curSpeed = Auto4.faster()
 //6. Вывести сами объекты в консоль.
 print(Auto1)
 print(Auto2)
