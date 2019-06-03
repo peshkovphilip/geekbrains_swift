@@ -151,6 +151,7 @@ Auto4.curSpeed = Auto4.faster()
 Auto4.curSpeed = Auto4.faster()
 Auto4.curSpeed = Auto4.faster()
 Auto4.curSpeed = Auto4.faster()
+
 //6. Вывести сами объекты в консоль.
 print(Auto1)
 print(Auto2)
