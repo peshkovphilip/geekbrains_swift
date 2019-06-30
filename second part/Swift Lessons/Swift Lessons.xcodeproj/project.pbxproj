@@ -14,6 +14,7 @@
 		C2B0820322C8B9BC00980163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B0820122C8B9BC00980163 /* LaunchScreen.storyboard */; };
 		C2B0820E22C8B9BD00980163 /* Swift_LessonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0820D22C8B9BD00980163 /* Swift_LessonsTests.swift */; };
 		C2B0821922C8B9BD00980163 /* Swift_LessonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0821822C8B9BD00980163 /* Swift_LessonsUITests.swift */; };
+		C2B0822722C8CCFE00980163 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2B0822622C8CCFE00980163 /* Earth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C2B0821422C8B9BD00980163 /* Swift LessonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift LessonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B0821822C8B9BD00980163 /* Swift_LessonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LessonsUITests.swift; sourceTree = "<group>"; };
 		C2B0821A22C8B9BD00980163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B0822622C8CCFE00980163 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Earth.jpg; path = ../../../../../../../../Users/filipp/Downloads/Earth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				C2B081FA22C8B9BA00980163 /* ViewController.swift */,
 				C2B081FC22C8B9BA00980163 /* Main.storyboard */,
 				C2B081FF22C8B9BC00980163 /* Assets.xcassets */,
+				C2B0822622C8CCFE00980163 /* Earth.jpg */,
 				C2B0820122C8B9BC00980163 /* LaunchScreen.storyboard */,
 				C2B0820422C8B9BC00980163 /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B0820322C8B9BC00980163 /* LaunchScreen.storyboard in Resources */,
+				C2B0822722C8CCFE00980163 /* Earth.jpg in Resources */,
 				C2B0820022C8B9BC00980163 /* Assets.xcassets in Resources */,
 				C2B081FE22C8B9BA00980163 /* Main.storyboard in Resources */,
 			);
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5439397J6;
 				INFOPLIST_FILE = "Swift Lessons/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5439397J6;
 				INFOPLIST_FILE = "Swift Lessons/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
