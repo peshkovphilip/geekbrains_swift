@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C210FA9122CCCDAE00FE9F30 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
 		C2B081F522C8B9BA00980163 /* Swift Lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Lessons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B081F822C8B9BA00980163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2B081FA22C8B9BA00980163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C210FA8F22CCCD9900FE9F30 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C210FA9022CCCDA800FE9F30 /* img */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		C210FA9022CCCDA800FE9F30 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				C210FA9122CCCDAE00FE9F30 /* Earth.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		C2B081EC22C8B9B900980163 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,7 @@
 		C2B081F722C8B9BA00980163 /* Swift Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				C210FA8F22CCCD9900FE9F30 /* assets */,
 				C2B081F822C8B9BA00980163 /* AppDelegate.swift */,
 				C2B081FA22C8B9BA00980163 /* ViewController.swift */,
 				C2B081FC22C8B9BA00980163 /* Main.storyboard */,
